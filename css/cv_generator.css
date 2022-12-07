@@ -1,0 +1,478 @@
+input:focus, textarea:focus, select:focus{
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+.column {
+  width: 50%;
+  float: left;
+  max-height: 111vh;
+}
+
+.form_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-control:focus {
+  background-color: #f8fafe;
+  outline: 0;
+  box-shadow: none;
+}
+label {
+  color: #98a1b3;
+  font-size: 13px;
+  margin: 5px 0 0;
+  white-space: pre-wrap;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Poppins";
+}
+
+button {
+  color: #0042c6;
+  cursor: pointer;
+  vertical-align: middle;
+  /* width: 100%; */
+  text-align: center;
+  margin-top: 10px 0;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  border: none;
+  background-color: white;
+}
+
+h2 {
+  padding-top:30px;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+}
+
+.cv_displayContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7a8599;
+  min-width: 50%;
+  justify-content: flex-start;
+  font-family: "Poppins";
+  overflow: hidden;
+  color: #fff;
+  top: 0;
+}
+
+.cv_wrapper {
+  display: block;
+  background-color: #7a8599;
+  min-height: 100%;
+  height: 100%;
+  min-width: 50%;
+  justify-content: flex-start;
+  font-family: "Poppins";
+  overflow: hidden;
+  color: #fff;
+  top: 0;
+}
+
+#resume {
+  background-color: #fff;
+  width: 470px;
+  height: 700px;
+  overflow: hidden;
+  margin: auto;
+  border: 0 solid #000;
+  position: relative;
+  padding-right: 17px;
+  margin-top: 25%;
+  box-sizing: content-box;
+  border-radius: 15px;
+}
+
+
+.cv_header {
+  height: 10rem;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+
+}
+
+.cv_image {
+  border-radius: 100px;
+  border: 1px solid #000;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  box-sizing: border-box;
+
+}
+
+.cv_image img {
+  height: 150px;
+  border-radius: inherit;
+  width: auto;
+  max-height: 120px;
+  min-width: 100px;
+
+
+
+}
+
+.divBorderleft {
+  width: 0;
+  border: 1px solid black;
+  margin-left: -9px;
+  height: 500px;
+  position: absolute;
+}
+
+.cv_head_right_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #000000;
+
+}
+.cv_Job p{
+  display: inline;
+}
+
+.cv_Employment p{
+  display: inline;
+
+}
+.cv_Experience p{
+  display: inline;
+
+}
+.submitButton {
+  font-family: "Poppins";
+  background-color: #694aff;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 7px;
+  margin: 10px 180px 200px 180px;
+}
+
+.subItem h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.bluebox {
+  position: absolute;
+
+  width: 50px;
+}
+
+.section_title {
+  color: #000000;
+  padding: 0.5em 0 0 0.5em;
+  margin-right: 4px;
+  padding-right: 1.2em;
+}
+
+.section_title .h1 {
+  font-size: 20px;
+}
+
+.cv_body_left {
+  display: block;
+}
+
+.cv_body_right {
+  display: block;
+}
+
+.cv_Text p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.cv_name {
+  padding-top: 1.5em;
+  margin-left: 0.5em;
+  color: #000000;
+}
+
+.dropdownLanguage1 {
+  width: 200px;
+  height: 38px;
+  margin-top: 12px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+.cv_Occupation {
+  margin-left: 0.7em;
+}
+
+.cv_Birthday {
+  margin-left: 0.7em;
+}
+
+.inner_div_emp{
+  display: none;
+  padding: 12px 9px;
+}
+.upper_div_emp{
+  padding: 11px 11px;
+  
+  border: 2px solid #f9fafe;
+    margin: 5px 0px;
+}
+.all_btn_emp a{
+  font-size: 16px;
+    padding: 0px 10px;
+    text-decoration: none;
+    float: right;
+    text-transform: capitalize;
+}
+
+.inner_div_job{
+  display: none;
+  padding: 12px 9px;
+}
+.upper_div_job{
+  padding: 11px 11px;
+  
+  border: 2px solid #f9fafe;
+    margin: 5px 0px;
+}
+.all_btn_job a{
+  font-size: 16px;
+    padding: 0px 10px;
+    text-decoration: none;
+    float: right;
+    text-transform: capitalize;
+}
+
+.inner_div_erfahrung{
+  display: none;
+  padding: 12px 9px;
+}
+.upper_div_erfahrung{
+  padding: 11px 11px;
+  border: 2px solid #f9fafe;
+    margin: 5px 0px;
+}
+.all_btn_erfahrung a{
+  font-size: 16px;
+    padding: 0px 10px;
+    text-decoration: none;
+    float: right;
+    text-transform: capitalize;
+}
+
+.inner_div_lan{
+  display: none;
+  padding: 12px 9px;
+}
+.upper_div_lan{
+  padding: 11px 11px;
+  
+  border: 2px solid #f9fafe;
+    margin: 5px 0px;
+}
+.all_btn_lan a{
+  font-size: 16px;
+    padding: 0px 10px;
+    text-decoration: none;
+    float: right;
+    text-transform: capitalize;
+}
+
+.inner_div_kom{
+  display: none;
+  padding: 12px 9px;
+}
+.upper_div_kom{
+  padding: 11px 11px;
+  
+  border: 2px solid #f9fafe;
+    margin: 5px 0px;
+}
+.all_btn_kom a{
+  font-size: 16px;
+    padding: 0px 10px;
+    text-decoration: none;
+    float: right;
+    text-transform: capitalize;
+}
+.greyBackground {
+  background-color: #F7F7F7;
+}
+
+.iconColor {
+  color: #71C4CF;
+  background-color: #71C4CF;
+}
+
+.cv_head {
+  height: 10rem;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.form-control {
+  font-family: "Poppins";
+  background-color: #f8fafe;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.pro-form {
+  width: 350px;
+  border-radius: 20px;
+  background: #694aff;
+  padding: 2px 20px 20px 20px;
+
+}
+
+.field {
+  margin: 0 0 10px 0;
+
+}
+
+
+
+.form-group{position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+input{border: 0; padding: 7px 0; border-bottom: 1px solid #694eec;}
+
+input ~ .border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;outline: none;}
+
+
+.border {
+  border: 1px solid #694eec!important;
+}
+.input:focus ~ .border{width: 100%; transition: 0.4s; outline: none;}
+
+textarea:focus~.border {
+    width: 100%!important;
+    display: initial;
+    opacity: 1;
+}
+textarea .border{
+  opacity: 0;
+  width: 0;
+  border: 1px solid transparent;
+  background-color: #694aff;
+  transition: all .3s ease-in-out;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+
+
+input:focus~.border {
+  width: 100%!important;
+  display: initial;
+  opacity: 1;
+}
+input .border {
+opacity: 0;
+    width: 0;
+    border: 1px solid transparent;
+    background-color: #694aff;
+    transition: all .3s ease-in-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+}
+
+.progress-wrap {
+  font-size: .8rem;
+  font-family:'Poppins';
+  color: black;
+  margin: 0 0 20px 0;
+}
+
+progress {
+  width: 100%;
+  margin: 0 0 5px 0;
+}
+
+.fileContainer {
+ border:none;
+}
+
+.cv_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.additionalDetailsToggle {
+  width: 100%;
+  text-align: center;
+}
+
+.additionalDetailsToggle span {
+  color: #0042c6;
+  cursor: pointer;
+  vertical-align: middle;
+  font-family: "Poppins";
+}
+
+select {
+  width: inherit;
+  margin-top: 12px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  background-color: #f8fafe;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  height: 50px;
+  font-size: 15px;
+}
+
+option {
+  font-family: "Poppins";
+  background-color: #f8fafe;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  height: 40px;
+    
+    
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cv_photo {
+  border-radius: 50%;
+}
